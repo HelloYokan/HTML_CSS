@@ -1,0 +1,22 @@
+.block {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -23px;
+  margin-bottom: -5px;
+}
+b {
+  font-size: 30px;
+}
+.underline {
+  text-decoration:black;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+.dashed {
+  text-decoration: black;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
+}
+
