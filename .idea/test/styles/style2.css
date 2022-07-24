@@ -1,0 +1,166 @@
+@font-face {
+  font-family: Alpha-Echo;
+  src: url(../fonts/alpha_echo.ttf) format("truetype");
+}
+
+header {
+  background: white;
+  margin-top: -20px;
+
+}
+
+.name {
+  font-family: Alpha-Echo;
+}
+.header-buttons {
+  word-spacing: 60px;
+  font-style: italic;
+  padding: 18px;
+}
+button {
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+}
+.header-buttons button:hover {
+  background: #e84e4e;
+}
+body {
+  background: #d2d0d0;
+  margin: 0;
+}
+
+.main{
+  width: 100%;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: 10px;
+
+}
+.section {
+  width: 600px;
+  height: 1050px;
+  justify-content: center;
+  background: #ffffff;
+  margin: 10px;
+}
+.section_text {
+  padding: 20px;
+}
+.aside1,.aside2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside1 {
+  width: 300px;
+  height: 520px;
+  text-align: left;
+  background: #fdfdfe;
+
+  font-family: Bahnschrift;
+  height: 10%;
+
+}
+.text_aside1 {
+  /*margin: 20px;*/
+  padding: 15px;
+  /*font-family: Bahnschrift;*/
+}
+.aside1_button {
+  background: black;
+  color: white;
+  font-size: 20px;
+  width: 150px
+}
+.aside2 {
+  width: 300px;
+  height: 620px;
+  text-align: left;
+  background: #fdfdfe;
+  padding-bottom: 30px;
+  margin: 10px;
+  font-family: Bahnschrift;
+}
+.aside2_text {
+  padding: 15px;
+}
+.aside2 a {
+  color: red;
+}
+.aside2 a:hover {
+  color:blue;
+}
+
+
+footer {
+  background: #3b3a3a;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+.footer-blocks {
+  display: inline-block;
+  width: 20%;
+}
+.footer-blocks a {
+  color: white;
+}
+.footer-blocks a:hover {
+  text-decoration-style: dashed;
+}
+.contact-info {
+  width: 350px;
+
+}
+.icons {
+  word-spacing: 10px;
+}
+@media screen and (max-width: 1277px) {
+  .main{
+    width: 100%;
+  }
+  .right-aside1{
+    height: 460px;
+  }
+  .sea{
+    height: 200px;
+  }
+  .right-aside2{
+    height: 640px;
+  }
+  .footblock1{
+    height: 360px;
+  }
+}
+@media screen and (max-width: 957px) {
+  .asides{
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+@media screen and (max-width: 660px) {
+  .navbar_items{
+    flex-direction: column;
+  }
+  .section_1{
+    height: 100%;
+  }
+  .right-aside1{
+    order: -2;
+  }
+  .navbar_items li a{
+    padding: 1px 50px;
+  }
+  .asides{
+    flex-direction: column;
+  }
+}

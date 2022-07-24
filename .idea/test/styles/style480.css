@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Alpha-Echo";
+  src: url(../fonts/alpha_echo.ttf) format("truetype");
+}
+
+.font {
+  font-family: Alpha-Echo;
+}
+
+header{
+  background: white;
+  margin-top: -20px;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.header-buttons {
+  text-align: center;
+  word-spacing: 60px;
+  font-style: italic;
+  padding: 15px;
+}
+
+button {
+  font-size: 18px;
+  border:none;
+  background: white;
+  color: gray;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+button:hover {
+  border:none;
+  background: #e84242;
+}
+
+body {
+  background: #f6f6f6;
+  margin: 0;
+}
+
+.padding {
+  padding-left: 500px;
+  padding-right: 500px;
+  padding-top: 40px;
+}
+
+article {
+  background: white;
+}
+.sea{
+  width: 100%;
+  height: 30%;
+  background: url(../images/main.jpg);
+}
+aside {
+  background: white;
+}
+.right-aside1{
+  width: 300px;
+  text-align: left;
+  float: right;
+  display: inline-block;
+  margin-right: 100px;
+  /*padding-right: 20px;*/
+  margin-top: -918px;
+  background: #fdfdfe;
+  padding-bottom: 30px;
+}
+#button_aside{
+  width: 150px;
+  height: 30px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-top: 7px;
+  margin-left: 20px;
+}
+.right-aside2{
+  width: 300px;
+  text-align: left;
+  float: right;
+  display: inline-block;
+  margin-right: 100px;
+  /*padding-right: 20px;*/
+  margin-top: -500px;
+  background: #fdfdfe;
+  padding-bottom: 30px;
+}
+a {
+  color: red;
+}
+link-color {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+  text-decoration-style: solid;
+}
+
+li {
+  margin-right: 20px;
+}
+.black-button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+.black-button:hover {
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 1, 0.43);
+
+}
+.black-button:active {
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(64, 0, 24, 0.72);
+  color: white;
+}
+footer {
+  color:white;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 450px;
+  background: #2d2d2d;
+  display: inline-flex;
+}
+.footer-text-first-block {
+
+  width: 400px;
+  text-align: left;
+  display: inline-block;
+}
+
+contact-information {
+  width: 350px;
+  align-items: center;
+  text-align: left;
+  display: inline-block;
+}
+.facebook {
+  background: url("../images/facebook.svg");
+  width: 18%;
+  height: 10%;
+  display: inline-block;
+}
+.dribble {
+  background: url("..images/dribbble.svg") no-repeat;
+  width: 18%;
+  height: 10%;
+  display: inline-block;
+}
+.twitter {
+  background: url("images/twitter.svg") no-repeat;
+  width: 18%;
+  height: 10%;
+  display: inline-block;
+}
+
